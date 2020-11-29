@@ -1,0 +1,24 @@
+{
+  "name": "note_taking_service_api",
+  "version": "1.0.0",
+  "description": "Back End for Note Taking service",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "sqlite3": "^5.0.0",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.0.1"
+  },
+  "scripts": {
+    "test": "jest --forceExit --detectOpenHandles"
+  },
+  "author": "",
+  "license": "ISC"
+}
